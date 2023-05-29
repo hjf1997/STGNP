@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ## Datasets
 * Beijing: The original dataset is accessible at [this link](https://www.microsoft.com/en-us/research/publication/forecasting-fine-grained-air-quality-based-on-big-data/?from=http%3A%2F%2Fresearch.microsoft.com%2Fapps%2Fpubs%2F%3Fid%3D246398). 
-The processed data for our project is available at [Google Drive](https://drive.google.com/drive/folders/1u2TazNL6dcaEUnAXrm4BiLdeLMXa9zoi?usp=sharing). 
+The processed data for our project is available at [Google Drive](https://drive.google.com/drive/folders/13lpPTn0XYxETPGVEi9gUX09Tr3vWwHVK?usp=sharing). 
 * London: The dataset can be downloaded at [KDD 18 CUP](https://www.biendata.xyz/competition/kdd_2018/). Note that registration is required.
 * Water: The dataset can be accessed by contacting the authors of the [TDB paper](http://urban-computing.com/pdf/ieeetbd2020_UrbanWater.pdf).
 
@@ -49,7 +49,7 @@ All the checkpoints and results will be saved at [checkpoints](checkpoints) fold
 For more training, testing, dataset configurations, please refer to [base_options](options/base_options.py), [train_options](options/train_options.py), [test_options](options/test_options.py), and [dataset_options](options/dataset_options.py).
 
 ## Reproduce Our Results
-We saved the pretrained checkpoints for our STGNP at [Google Drive](https://drive.google.com/drive/folders/1nESwyNrqOsYvUwvZBwAotck29kTCkn87?usp=sharing).
+We saved the pretrained checkpoints for our STGNP at [Google Drive](https://drive.google.com/drive/folders/13lpPTn0XYxETPGVEi9gUX09Tr3vWwHVK?usp=sharing).
 Download the checkpoints files and put them under [checkpoints](checkpoints) folder.
 Each checkpoint file contains *run_test.sh* script.
 Please run the script **in the project root folder** to reproduce our results:
