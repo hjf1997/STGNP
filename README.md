@@ -14,6 +14,7 @@ Extensive experiments demonstrate that STGNP has desirable properties such as un
 - numpy
 - pandas
 - [neptune](https://neptune.ai/) (optional)
+
 To install requirements (with out neptune):
 ```bash
 pip install -r requirements.txt
