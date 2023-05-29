@@ -1,0 +1,73 @@
+config1:
+  tcn_channels: [16, 32, 64]
+  latent_channels: [16, 32, 64]
+  emd_channel: 16
+  num_latent_layers: 1
+  observation_hidden_dim: 128
+  num_observation_layers: 3
+  tcn_kernel_size: 3
+  dropout: 0.1
+
+config2:
+  tcn_channels: [32]
+  latent_channels: [16]
+  num_latent_layers: 2
+  observation_hidden_dim: 128
+  num_observation_layers: 3
+
+config3:
+  tcn_channels: [32, 64]
+  latent_channels: [16, 32]
+  num_latent_layers: 2
+  observation_hidden_dim: 128
+  num_observation_layers: 3
+
+config4:
+  tcn_channels: [32, 64, 128, 256]
+  latent_channels: [16, 32, 64, 128]
+  num_latent_layers: 2
+  observation_hidden_dim: 128
+  num_observation_layers: 3
+
+config5:
+  tcn_channels: [32, 64, 128]
+  latent_channels: [16, 32, 64]
+  num_latent_layers: 2
+  observation_hidden_dim: 32
+  num_observation_layers: 3
+
+config6:
+  tcn_channels: [32, 64, 128]
+  latent_channels: [16, 32, 64]
+  num_latent_layers: 2
+  observation_hidden_dim: 64
+  num_observation_layers: 3
+
+config7:
+  tcn_channels: [32, 64, 128]
+  latent_channels: [16, 32, 64]
+  num_latent_layers: 2
+  observation_hidden_dim: 256
+  num_observation_layers: 3
+
+
+config8:
+  tcn_channels: [16, 32, 64]
+  latent_channels: [8, 16, 32]
+  num_latent_layers: 2
+  observation_hidden_dim: 128
+  num_observation_layers: 3
+
+config9:
+  tcn_channels: [64, 128, 256]
+  latent_channels: [32, 64, 128]
+  num_latent_layers: 2
+  observation_hidden_dim: 128
+  num_observation_layers: 3
+
+config10:
+  tcn_channels: [8, 16, 32]
+  latent_channels: [4, 8, 16]
+  num_latent_layers: 2,
+  observation_hidden_dim: 128
+  num_observation_layers: 3
